@@ -1,0 +1,37 @@
+{
+"PYTHON":"/root/anaconda3/bin/python",
+    "AIRFLOW_HOME":"/root/airflow/",
+    "PENTAHO_LOCATION":"/data/workplace/pdi-ce-8.3.0.0-371/data-integration/",
+    "DEVELOP_SW_FILE_LOCATION":"/data/workplace/kpi/pentaho_jobs/develop/sw/",
+    "DEVELOP_RP_FILE_LOCATION":"/data/workplace/kpi/pentaho_jobs/develop/rp/",
+    "KPI_QA_LOCATION":"/data/workplace/kpi/kpi_qa/",
+    "QA_SW_FILE_LOCATION":"/data/workplace/kpi/pentaho_jobs/qa/sw/",
+    "QA_RP_FILE_LOCATION":"/data/workplace/kpi/pentaho_jobs/qa/rp/",
+    "QA_VIEW_FILE_LOCATION":"/data/workplace/kpi/pentaho_jobs/qa/view/",
+    "host":"10.13.189.8",
+    "username":"sony",
+    "password":"Extenso@123",
+    "master":"MASTER_DATA",
+    "airflow_db":"AIRFLOW_001",
+    "client_master":"SBL_001_MASTER",
+    "sw_db":"SBL_SW4",
+    "rp_db":"SBL_RP4",
+    "sw_industry_db":"SW_INDUSTRY_001",
+    "qa_db":"QA_KPI",
+    "report_db":"extenso_bi_report",
+    "EMAIL_LIST":[
+        "sony.shrestha@extensodata.com"
+    ],
+    "CRON_EXPRESSION":"40 11 * * *",
+    "START_DATE":{
+        "year":2020,
+        "month":8,
+        "day":4,
+        "hour":0,
+        "minute":0,
+        "second":0
+
+    }
+}
+
+

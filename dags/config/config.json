@@ -1,0 +1,55 @@
+{
+"CLIENT":"KUMARI",
+"PYTHON_LOCATION":"/data/venv/bin/python",
+"AIRFLOW_HOME":"root/airflow/",
+
+"SQL_SCRIPT_LOCATION":"/home/fonecredit/airflow/dags/sql_files/",
+"MONITOR_SCRIPT_LOCATION":"/home/workplace/monitor_scripts/",
+"DA_SCRIPT_LOCATION":"/home/workplace/decision_analytics/v2.21/",
+"MIGRATE_DB_SCRIPT_LOCATION":"/home/workplace/migrate_db/",
+
+    "EMAIL_LIST":[
+        "sony.shrestha@extensodata.com"
+    ],
+
+    "CRON_EXPRESSION_DA":"0 8 * * *",
+    "CRON_EXPRESSION_DA_Production_Point":"0 9 * * *",
+    "CRON_EXPRESSION_Mail_Monitor_Result":"20 8 * * *",
+
+       "mysql_config":
+       {
+        "driver":"mysql",
+        "host":"localhost",
+        "username":"fonecredit",
+        "password":"fonecredit"
+    },
+    "oracle_config":
+{
+   "driver": "oracle+cx_oracle",
+      "host": "192.168.178.203",
+      "username": "DELCHNL",
+      "password": "DelChnlkbl",
+      "port": "1521",
+      "sid_name": "orcl"
+},
+
+    
+    "START_DATE":{
+        "year":2020,
+        "month":8,
+        "day":9,
+        "hour":0,
+        "minute":0,
+        "second":0
+
+    },
+
+   "master_db_name":"MASTER_DATA",
+   "processing_db_name":"fonecredit_score_processing",
+   "app_db_name":"fone_credit_f1",
+   "raw_db_name":"fonecredit_score_raw"
+
+
+}
+
+
